@@ -44,7 +44,17 @@ a {
 }
 
 a:hover {
-    color: #EAF6F6;
+    color: #ffffe0;
+}
+
+
+.navigation-bar {
+    background: #E4F9F5;
+    padding-top: 20px;
+    text-align: right;
+
+
+
 }
 
 .copyright {
@@ -128,7 +138,7 @@ a:hover {
    -moz-box-shadow: 1px 1px 20px 0 #000000;
    box-shadow: 1px 1px 20px 0 #000000;
    text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 1px;
+   border: solid #337FED 0px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -136,7 +146,7 @@ a:hover {
 }
 
 .btn:hover {
-   border: solid #30E3CB 1px;
+   border: solid #30E3CB 0px;
    background: #30E3CB;
    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
